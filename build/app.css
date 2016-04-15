@@ -1,0 +1,127 @@
+.body {
+  background-color: #f2f2f2;
+  font-family: sans-serif, Helvetica, Arial; }
+  .body .container {
+    margin: -10px auto;
+    width: 970px; }
+    @media screen and (max-width: 600px) {
+      .body .container {
+        width: 770px; } }
+    .body .container .nav {
+      background-color: #d6d6d6;
+      display: flex;
+      height: 80px;
+      width: 100%; }
+      .body .container .nav .head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        width: 25%;
+        color: rgba(0, 0, 0, 0.7); }
+      .body .container .nav .links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        width: 75%;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        margin: 0;
+        padding: 0 50px; }
+        .body .container .nav .links .link {
+          margin: 0 15px; }
+    .body .container .header-wrap {
+      background-color: #fff;
+      width: 100%; }
+      .body .container .header-wrap img {
+        width: 100%;
+        position: relative; }
+      .body .container .header-wrap .banner-text {
+        position: absolute;
+        top: 135px;
+        left: 225px;
+        color: #fff;
+        font-size: 40px; }
+    .body .container .content {
+      background-color: #fff;
+      margin: -30px 0 0; }
+      .body .container .content .info {
+        border-bottom: 2px solid #f2f2f2;
+        padding: 25px 25px 0;
+        margin: 30px 0; }
+        .body .container .content .info .heading {
+          color: rgba(0, 0, 0, 0.7); }
+          .body .container .content .info .heading h3 {
+            text-align: center;
+            font-size: 30px;
+            font-weight: lighter;
+            margin: 10px 0; }
+          .body .container .content .info .heading p {
+            text-align: center;
+            width: 70%;
+            margin: auto;
+            font-size: 12px;
+            font-weight: lighter; }
+        .body .container .content .info .images {
+          display: flex;
+          justify-content: space-around;
+          width: 50%;
+          margin: 20px auto; }
+        .body .container .content .info .image-wrap {
+          background: #000;
+          width: 150px;
+          height: 150px;
+          position: relative; }
+          .body .container .content .info .image-wrap img {
+            width: 150px;
+            opacity: .4; }
+          .body .container .content .info .image-wrap .image-text {
+            position: absolute;
+            top: 60px;
+            left: 30px;
+            color: #fff;
+            font-size: 15px;
+            font-weight: lighter; }
+      .body .container .content .articles {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 0; }
+        .body .container .content .articles .article {
+          display: flex;
+          width: 75%;
+          margin: 20px auto;
+          align-items: center; }
+          .body .container .content .articles .article img {
+            width: 125px;
+            margin: 20px; }
+          .body .container .content .articles .article .article-text h3, .body .container .content .articles .article .article-text p {
+            color: rgba(0, 0, 0, 0.5);
+            font-weight: lighter;
+            margin: 0 0 10px; }
+          .body .container .content .articles .article .article-text h3 {
+            font-size: 22px; }
+          .body .container .content .articles .article .article-text p {
+            font-size: 12px; }
+    .body .container .footer {
+      background-color: #4d4d4d;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: lighter;
+      margin-top: -10px;
+      padding: 10px 0 40px; }
+      .body .container .footer .submenu {
+        margin: 0 75px; }
+        .body .container .footer .submenu h5 {
+          font-weight: lighter;
+          font-size: 14px;
+          margin: 35px 0 10px;
+          color: rgba(255, 255, 255, 0.6); }
+        .body .container .footer .submenu p {
+          font-weight: lighter;
+          font-size: 10px;
+          padding: 0;
+          margin: 0;
+          color: rgba(255, 255, 255, 0.3); }

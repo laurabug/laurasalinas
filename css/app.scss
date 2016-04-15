@@ -1,0 +1,196 @@
+$white: #fff;
+$black: #000;
+$background-light: #f2f2f2;
+$background-medium: #d6d6d6;
+$background-dark: #4d4d4d;
+$text-grey: rgba($black, .7); // Like #666 on white
+$text-light: rgba($black, .5); // Like #999 on white
+$text-muted: rgba($black, .3); // Like #ccc on white
+$text-rev-light: rgba($white, .3);
+$text-rev: rgba($white, .6);
+
+
+.body {
+    background-color: $background-light;
+    font-family: sans-serif, Helvetica, Arial;
+
+    .container {
+        margin: -10px auto;
+        width: 970px;
+
+        @media screen and (max-width: 600px) { width: 770px; }
+
+        .nav {
+            background-color: $background-medium;
+            display: flex;
+            height: 80px;
+            width: 100%;
+
+            .head {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 40px;
+                width: 25%;
+                color: $text-grey;
+            }
+
+            .links {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                list-style: none;
+                width: 75%;
+                font-size: 15px;
+                color: $text-light;
+                margin: 0;
+                padding: 0 50px;
+
+                .link {
+                    margin: 0 15px;
+                }
+            }
+        }
+
+        .header-wrap {
+            background-color: $white;
+            width: 100%;
+
+            img {
+                width: 100%;
+                position: relative;
+            }
+
+            .banner-text {
+                position: absolute;
+                top: 135px;
+                left: 225px;
+                color: $white;
+                font-size: 40px;
+            }
+        }
+
+        .content {
+            background-color: $white;
+            margin: -30px 0 0;
+
+            .info {
+                border-bottom: 2px solid $background-light;
+                padding: 25px 25px 0;
+                margin: 30px 0;
+
+                .heading {
+                    color: $text-grey;
+
+                    h3 {
+                        text-align: center;
+                        font-size: 30px;
+                        font-weight: lighter;
+                        margin: 10px 0;
+                    }
+
+                    p {
+                        text-align: center;
+                        width: 70%;
+                        margin: auto;
+                        font-size: 12px;
+                        font-weight: lighter;
+                    }
+                }
+
+                .images {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 50%;
+                    margin: 20px auto;
+                }
+
+                .image-wrap {
+                   background: $black; 
+                   width: 150px;
+                   height: 150px;
+                   position: relative;
+
+                   img {
+                        width: 150px;
+                        opacity: .4;
+                    }
+
+                    .image-text {
+                        position: absolute;
+                        top: 60px;
+                        left: 30px;
+                        color: $white;
+                        font-size: 15px;
+                        font-weight: lighter;
+                    }
+                }
+            }
+
+            .articles {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 10px 0;
+
+                .article {
+                    display: flex;
+                    width: 75%;
+                    margin: 20px auto;
+                    align-items: center;
+
+                    img {
+                        width: 125px;
+                        margin: 20px;
+                    }
+
+                    .article-text {
+
+                        h3, p {
+                            color: $text-light;
+                            font-weight: lighter;
+                            margin: 0 0 10px;
+                        }
+
+                        h3 {
+                            font-size: 22px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer {
+            background-color: $background-dark;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: lighter;
+            margin-top: -10px;
+            padding: 10px 0 40px;
+
+            .submenu {
+                margin: 0 75px;
+
+                h5 {
+                    font-weight: lighter;
+                    font-size: 14px;
+                    margin: 35px 0 10px;
+                    color: $text-rev;
+                }
+
+                p {
+                    font-weight: lighter;
+                    font-size: 10px;
+                    padding: 0;
+                    margin: 0;
+                    color: $text-rev-light;
+                }
+            }
+        }
+    }
+}
