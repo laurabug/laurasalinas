@@ -112,16 +112,20 @@
       font-weight: lighter;
       margin-top: -10px;
       padding: 10px 0 40px; }
-      .body .container .footer-container .submenu {
-        margin: 0 75px; }
-        .body .container .footer-container .submenu h5 {
-          font-weight: lighter;
-          font-size: 14px;
-          margin: 35px 0 10px;
-          color: rgba(255, 255, 255, 0.6); }
-        .body .container .footer-container .submenu p {
-          font-weight: lighter;
-          font-size: 10px;
+      .body .container .footer-container div {
+        display: flex;
+        align-items: flex-end; }
+        .body .container .footer-container div ul {
+          list-style: none;
           padding: 0;
-          margin: 0;
-          color: rgba(255, 255, 255, 0.3); }
+          margin: 0 60px; }
+          .body .container .footer-container div ul h6 {
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.6);
+            margin: 10px 0;
+            font-weight: lighter; }
+          .body .container .footer-container div ul li {
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.6);
+            font-weight: lighter;
+            line-height: 1.5; }
