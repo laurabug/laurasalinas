@@ -39,14 +39,25 @@
             padding: 0 25px; } }
         @media screen and (max-width: 590px) {
           .body .container .nav .links {
-            font-size: 12px;
-            padding: 0 10px 0 20px;
-            width: 30%; } }
+            display: none; } }
         .body .container .nav .links .link {
           margin: 0 15px; }
           @media screen and (max-width: 590px) {
             .body .container .nav .links .link {
               margin: 0 10px; } }
+      .body .container .nav .menu-button {
+        display: none; }
+        @media screen and (max-width: 590px) {
+          .body .container .nav .menu-button {
+            display: block;
+            border: 1px solid #d6d6d6;
+            margin: 20px 80px 20px 40px;
+            width: 40%;
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.6);
+            color: rgba(0, 0, 0, 0.3);
+            font-size: 12px; } }
     .body .container .header-wrap {
       background-color: #fff;
       width: 100%;

@@ -59,9 +59,7 @@ $text-rev: rgba($white, .6);
                 }
 
                 @media screen and (max-width: 590px) { 
-                    font-size: 12px;
-                    padding: 0 10px 0 20px;
-                    width: 30%;
+                    display: none;
                 }
 
                 .link {
@@ -70,6 +68,22 @@ $text-rev: rgba($white, .6);
                     @media screen and (max-width: 590px) { 
                         margin: 0 10px;
                     }
+                }
+            }
+
+            .menu-button {
+                display: none;
+
+                @media screen and (max-width: 590px) { 
+                    display: block;
+                    border: 1px solid $background-medium;
+                    margin: 20px 80px 20px 40px;
+                    width: 40%;
+                    text-align: center;
+                    padding: 10px;
+                    background-color: $text-rev;
+                    color: $text-muted;
+                    font-size: 12px;
                 }
             }
         }
