@@ -103,7 +103,7 @@
             font-size: 22px; }
           .body .container .content .articles .article .article-text p {
             font-size: 12px; }
-    .body .container .footer {
+    .body .container .footer-container {
       background-color: #4d4d4d;
       width: 100%;
       display: flex;
@@ -112,14 +112,14 @@
       font-weight: lighter;
       margin-top: -10px;
       padding: 10px 0 40px; }
-      .body .container .footer .submenu {
+      .body .container .footer-container .submenu {
         margin: 0 75px; }
-        .body .container .footer .submenu h5 {
+        .body .container .footer-container .submenu h5 {
           font-weight: lighter;
           font-size: 14px;
           margin: 35px 0 10px;
           color: rgba(255, 255, 255, 0.6); }
-        .body .container .footer .submenu p {
+        .body .container .footer-container .submenu p {
           font-weight: lighter;
           font-size: 10px;
           padding: 0;
