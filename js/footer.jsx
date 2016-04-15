@@ -1,5 +1,5 @@
 var React = require('react');
-var SubMenu = require('./SubMenu.jsx');
+var SubMenu = require('./subMenu.jsx');
 
 module.exports = React.createClass({
     render: function() {
